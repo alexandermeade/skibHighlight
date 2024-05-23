@@ -26,7 +26,9 @@ syn match skibNameSpace "\<livvy\>"
 
 syn match skibLineComment "tiktokrizzparty.*"
 
-syn match skibString "\"([^\"\\]*(\\.[^\"\\]*)*)\""
+syn region skibString start=+"+ skip=+\\\\\|\\"+ end=+"+ contains=skibStringContent
+
+" syn match skibString "\"([^\"\\]*(\\.[^\"\\]*)*)\""
 
 " Highlight links
 highlight def link skibNum Number
