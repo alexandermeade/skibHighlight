@@ -1,8 +1,4 @@
 " syntax/skib.vim
-if exists("b:current_syntax")
-  finish
-endif
-
 echo "Loading skib syntax"
 
 " Syntax definitions
