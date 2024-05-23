@@ -25,8 +25,8 @@ syn match skibSlot "\<kaicenat\>"
 syn match skibNameSpace "\<livvy\>"
 
 syn match skibLineComment "tiktokrizzparty.*"
-syn match skibString "\"\([^\"\\]\|\\.\)*\""
-
+" syn match skibString "\"\([^\"\\]\|\\.\)*\""
+syn match skibString "\"([^\"\\]*(\\.[^\"\\]*)*)\""
 " Highlight links
 highlight def link skibNum Number
 highlight def link skibId Identifier
