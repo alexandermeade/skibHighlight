@@ -1,3 +1,3 @@
 
-au BufRead,BufNewFile *.skib set filetype=skib | echom "Setting filetype to skib"
+au BufRead,BufNewFile *.skib set filetype=skib | echo "Setting filetype to skib"
 
