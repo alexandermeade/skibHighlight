@@ -1,0 +1,7 @@
+
+
+skibidi main() {
+    print("test")
+}
+
+main()
