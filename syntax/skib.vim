@@ -3,6 +3,7 @@ if exists("b:current_syntax")
   finish
 endif
 
+echom "Loading skib syntax"
 " Syntax definitions
 syn match skibNum "\<[0-9]\+\>"
 syn match skibId "\<[A-Za-z_][A-Za-z0-9_]*\>"
