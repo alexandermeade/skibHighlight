@@ -20,7 +20,7 @@ syn match skibReturn "\<lowtaperfade\>"
 syn match skibFn "\<skibidi\>"
 
 syn match skibEmbed "\<ohio\>"
-syn match skibPipe "\<:3\>"
+syn match skibPipe ":3"
 syn match skibSlot "\<kaicenat\>"
 syn match skibNameSpace "\<livvy\>"
 
