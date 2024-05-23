@@ -1,7 +1,5 @@
-" syntax/skib.vim
 echo "Loading skib syntax"
 
-" Syntax definitions
 syn match skibNum "\<[0-9]\+\>"
 syn match skibId "\<[A-Za-z_][A-Za-z0-9_]*\>"
 syn match skibTrue "\<true\>"
@@ -25,7 +23,6 @@ syn match skibNameSpace "\<livvy\>"
 syn match skibLineComment "tiktokrizzparty.*"
 syn match skibString "\"\([^\"\\]\|\\.\)*\""
 
-" Highlight links
 highlight def link skibNum Number
 highlight def link skibId Identifier
 highlight def link skibTrue Boolean 
