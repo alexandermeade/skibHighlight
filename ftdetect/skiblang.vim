@@ -1,3 +1,3 @@
 
-au BufRead,BufNewFile *.skib set filetype=skibLang
+au BufRead,BufNewFile *.skib set filetype=skib
 
