@@ -1,7 +1,6 @@
 
-
 skibidi main() {
-    print("test")
+    print("hello")
 }
 
 main()
