@@ -49,10 +49,10 @@ highlight def link skibPub Macro
 highlight def link skibLocal Conditional
 
 
-highlight def link skibContinue Macro
-highlight def link skibBreak Macro
+highlight def link skibContinue Conditional 
+highlight def link skibBreak Conditional
 
-highlight def link skibReturn Macro
+highlight def link skibReturn Conditional 
 highlight def link skibFn Conditional 
 
 highlight def link skibEmbed Macro 
