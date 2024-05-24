@@ -16,6 +16,8 @@ skibHighlight is a vim plugin that highlights skib aka skibLang code. skibLang i
 
 # Installation 
 
-add to your plugins ``` Plug 'alexandermeade/skibHighlight'```
-
+add to your plugins
+  
+  Plug 'alexandermeade/skibHighlight'
+  
 Run the command to install the plug in ```:PlugInstall```
