@@ -1,6 +1,6 @@
 
 # What is skibHighlight?
-<div>
+<div style = "text-align:center;">
     
 ![image](https://github.com/alexandermeade/skibHighlight/assets/128431625/d1f466f6-4c98-4a9a-9404-d3454b774f0f)
 
