@@ -13,9 +13,9 @@ syn match skibNull "\<nil\>"
 syn match skibIf "\<sus\>"
 syn match skibLoop "\<gyatt\>"
 
-syn match skibPub "mrworldwide"
+syn match skibPub "\<mrworldwide\>"
 
-syn match skibLocal "rizz"
+syn match skibLocal "\<rizz\>"
 
 syn match skibContinue "\<pass\>"
 syn match skibBreak "\<caseoh\>"
@@ -25,6 +25,7 @@ syn match skibFn "\<skibidi\>"
 
 syn match skibEmbed "\<ohio\>"
 syn match skibPipe ":3"
+syn match skibRequire "\<bussin\>"
 syn match skibSlot "\<kaicenat\>"
 syn match skibNameSpace "\<livvy\>"
 
@@ -58,6 +59,8 @@ highlight def link skibFn Conditional
 highlight def link skibEmbed Macro 
 highlight def link skibPipe Structure
 
+
+highlight def link skibRequire Macro
 highlight def link skibSlot Macro
 highlight def link skibNameSpace Macro
 
