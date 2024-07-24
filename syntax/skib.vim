@@ -33,9 +33,8 @@ syn match skibLineComment "tiktokrizzparty.*"
 
 syn region skibString start=+"+ skip=+\\\\\|\\"+ end=+"+ contains=skibStringContent
 
-" syn match skibString "\"([^\"\\]*(\\.[^\"\\]*)*)\""
-
 " Highlight links
+
 highlight def link skibNum Number
 highlight def link skibId Identifier
 highlight def link skibTrue Boolean 
@@ -58,7 +57,6 @@ highlight def link skibFn Conditional
 
 highlight def link skibEmbed Macro 
 highlight def link skibPipe Structure
-
 
 highlight def link skibRequire Macro
 highlight def link skibSlot Macro
