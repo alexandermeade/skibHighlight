@@ -25,7 +25,7 @@ syn match skibFn "\<skibidi\>"
 
 syn match skibEmbed "\<ohio\>"
 syn match skibPipe ":3"
-syn match skibRequire "\<bussin\>"
+syn match skibRequire "bussin"
 syn match skibSlot "\<kaicenat\>"
 syn match skibNameSpace "\<livvy\>"
 
